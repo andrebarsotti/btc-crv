@@ -28,4 +28,4 @@ bash anaconda.sh
 
 ## Fontes
 
-
+DIGITALOCEAN, **How To Install the Anaconda Python Distribution on Ubuntu 20.04**. Acesso em: 26.Mar.2023. Disponível em: <https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04>
