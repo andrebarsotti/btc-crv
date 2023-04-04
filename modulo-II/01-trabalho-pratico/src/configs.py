@@ -1,0 +1,10 @@
+ARQUIVO_DADOS_BRUTOS_EOD_HISTORICO_CSV = "../00-dados-brutos/cotacao_historica_abev3.csv"
+ARQUIVO_DADOS_PERIODO_IPP = "../00-dados-brutos/periodo_ipp_6903.json"
+ARQUIVO_DADOS_IPP_BEBIDAS = "../00-dados-brutos/dados_ipp_6903.json"
+
+
+STR_CONN_SQLLITE = "../01-dados-limpos/dados_abv3.db"
+
+TABELA_COTACOES_HISTORICAS = "COTACOES_EOD_ABV3"
+TABELA_IPP_HISTORICO = "IPP_PRODUTOR_BEBIDAS"
+TABELA_IPP_PERIODOS = "IPP_PERIODOS"
