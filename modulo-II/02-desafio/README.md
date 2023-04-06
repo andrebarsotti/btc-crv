@@ -16,9 +16,9 @@ fundamentalistas para o relatório de análise.
 
 ## Atividades
 
-1. Colete e processe os ITRs de Ambev para o período de 2019-2022, utilizando o sistema RAD CVM como fonte de dados (lembre-se que para realizarmos a consulta precisamos saber o código CVM da companhia);
-2. Armazene esses dados fundamentalistas em um banco de dados relacional SQL local ou em nuvem;
-3. Leia essa série histórica do banco de dados SQL usando o Python;
-4. Filtre apenas os dados de “Receita de Venda de Bens e/ou Serviços” dentro da “Demonstração do Resultado” do “DFs Consolidadas”;
-5. Gere um pandas DataFrame final apenas com esses valores de “Receita de Venda de Bens e/ou Serviços” e a respectiva data;
-6. É essa tabela que estamos interessados. Salve-a localmente num arquivo Excel com formato .xlsx.
+1. [ ] Colete e processe os ITRs de Ambev para o período de 2019-2022, utilizando o sistema RAD CVM como fonte de dados (lembre-se que para realizarmos a consulta precisamos saber o código CVM da companhia);
+2. [ ] Armazene esses dados fundamentalistas em um banco de dados relacional SQL local ou em nuvem;
+3. [ ] Leia essa série histórica do banco de dados SQL usando o Python;
+4. [ ] Filtre apenas os dados de “Receita de Venda de Bens e/ou Serviços” dentro da “Demonstração do Resultado” do “DFs Consolidadas”;
+5. [ ] Gere um pandas DataFrame final apenas com esses valores de “Receita de Venda de Bens e/ou Serviços” e a respectiva data;
+6. [ ] É essa tabela que estamos interessados. Salve-a localmente num arquivo Excel com formato .xlsx.

@@ -18,7 +18,8 @@ Inicialmente ele nos solicitou apenas os dados de mercado e dados macroeconômic
 
 ## Atividades
 
-1. Colete a série histórica dos dados de inflação de bebidas do IBGE usando a API sidra;
-2. Colete a série histórica dos dados diários de preços e volume (OHLCV) para a ação ABEV3 do provedor de sua preferência (yahoo, finance, marketstack, eodhistoricaldata, finnhub, alphavantage, etc.);
-3. Crie e armazene esses dados em um banco de dados SQL local ou em nuvem;
-4. Esboce como seria a implementação em Python de uma DAG Airflow, que executaria as coletas implementadas anteriormente. O código não precisa rodar com sucesso, é apenas um esboço.
+1. [x] Colete a série histórica dos dados de inflação de bebidas do IBGE usando a API sidra;
+2. [x] Colete a série histórica dos dados diários de preços e volume (OHLCV) para a ação ABEV3 do provedor de sua preferência (yahoo, finance, marketstack, eodhistoricaldata, finnhub, alphavantage, etc.);
+3. [x] Crie e armazene esses dados em um banco de dados SQL local ou em nuvem;
+4. [ ] Esboce como seria a implementação em Python de uma DAG Airflow, que executaria as coletas implementadas anteriormente. O código não precisa rodar com sucesso, é apenas um esboço.
+
