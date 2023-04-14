@@ -1,4 +1,5 @@
 import os
+import unicodedata
 import requests
 import pandas as pd
 import chardet
