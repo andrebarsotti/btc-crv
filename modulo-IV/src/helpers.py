@@ -2,9 +2,15 @@ import os
 import requests
 import pandas as pd
 import chardet
+
+import pyarrow as pa
+import pyarrow.parquet as pq
+
 from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor
+
 from tqdm.notebook import tqdm
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -21,6 +27,11 @@ def converter_colunas_para_numericos(df, columns, com_tratamento=True):
         if com_tratamento:
             df[col]=df[col].str.replace('.','',regex=False).str.replace(',','.',regex=False).replace('[^0-9\.]+', '', regex=True)
         df[col]=pd.to_numeric(df[col])
+
+def save_to_parquet(df, path):
+    ensure_folder_exists(path)
+    table = pa.Table.from_pandas(df)
+    pq.write_table(table, path)
 
 ########################################################################
 # Codigos fornecido pelo Chat GPT

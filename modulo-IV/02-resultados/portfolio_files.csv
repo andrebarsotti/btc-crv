@@ -1,0 +1,25 @@
+Portfolio,File Name
+Blue Chips,blue_chips.parquet
+Mid Caps,mid_caps.parquet
+Small Caps,small_caps.parquet
+Micro Caps,micro_caps.parquet
+High Return,high_return.parquet
+Low Return,low_return.parquet
+High Volatility,high_volatility.parquet
+Low Volatility,low_volatility.parquet
+High Liquidity,high_liquidity.parquet
+Low Liquidity,low_liquidity.parquet
+High Beta,high_beta.parquet
+Market Beta,market_beta.parquet
+Low Beta,low_beta.parquet
+High Alpha,high_alpha.parquet
+Low Alpha,low_alpha.parquet
+High Sharpe,high_sharpe.parquet
+Low Sharpe,low_sharpe.parquet
+High P/E,high_pe.parquet
+Low P/E,low_pe.parquet
+High P/B,high_pb.parquet
+Low P/B,low_pb.parquet
+High Debt,high_debt.parquet
+Low Debt,low_debt.parquet
+Banks,banks.parquet
