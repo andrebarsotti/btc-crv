@@ -1,4 +1,5 @@
 import os
+import unicodedata
 import requests
 import pandas as pd
 import chardet
@@ -19,6 +20,10 @@ def converter_colunas_para_numericos(df, columns, com_tratamento=True):
         if com_tratamento:
             df[col]=df[col].str.replace('.','',regex=False).str.replace(',','.',regex=False).replace('[^0-9\.]+', '', regex=True)
         df[col]=pd.to_numeric(df[col])
+
+def remover_acentuacao(input_str):
+    nfkd_form = unicodedata.normalize('NFKD', input_str)
+    return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])        
 
 ########################################################################
 # Codigos fornecido pelo Chat GPT
