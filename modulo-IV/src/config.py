@@ -1,3 +1,5 @@
-PATH_DADOS_BRUTOS_EMPRESAS_CVM = "../00-dados-brutos/empresas/"
-PATH_DADOS_BRUTOS_DFP_CVM = "../00-dados-brutos/dfp/"
-PATH_DADOS_BRUTOS_ITR_CVM = "../00-dados-brutos/itr/"
+PATH_EXCEL_DATABASE = "../00-dados-brutos/base_tratada.xlsx"
+PATH_SCREENER_PARQUET = "../01-dados-limpos/screener.parquet"
+PATH_PORTFOLIO_PARQUET = "../01-dados-limpos/portfolios.parquet"
+PATH_PRELAST_PARQUET = "../01-dados-limpos/prelast.parquet"
+PATH_VOLUME_PARQUET = "../01-dados-limpos/volume.parquet"
