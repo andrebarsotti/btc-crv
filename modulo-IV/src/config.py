@@ -6,3 +6,5 @@ PATH_VOLUME_PARQUET = "../01-dados-limpos/volume.parquet"
 
 PATH_RESULTADOS = "../02-resultados"
 PATH_CALCULATED_PORTFOLIO_DIR = f"{PATH_RESULTADOS}/portfolios/"
+PATH_TABELA_RETORNOS = f"{PATH_RESULTADOS}/retornos.parquet"
+PATH_TABELA_INDICADORES_PORTFOLIO = f"{PATH_RESULTADOS}/portfolio_results.parquet"
